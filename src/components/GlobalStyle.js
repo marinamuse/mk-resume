@@ -27,13 +27,14 @@ const GlobalStyle = createGlobalStyle`
     }
     h2 {
             font-weight: lighter;
-            font-size: 4rem;
+            font-size: 3rem;
         }
     h3 {
         color: white;
     }
     h4 {
         font-weight: bold;
+        font-size: 2rem;
     }
     a {
         font-size: 1.1rem;
