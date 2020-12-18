@@ -6,9 +6,17 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+
+    html {
+        @media (max-width: 750px) {
+            font-size: 75%
+        }
+    }
+
     body {
         background: #1b1b1b;
         font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
     }
     button {
         font-weight: bold;
@@ -27,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
     }
     h2 {
             font-weight: lighter;
-            font-size: 3rem;
+            font-size: 2.8rem;
         }
     h3 {
         color: white;
@@ -44,9 +52,9 @@ const GlobalStyle = createGlobalStyle`
         color: #23d997;
     }
     p {
-        padding: 3rem 0rem;
+        padding: 2rem 0rem;
         color: #ccc;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 150%;
     }
 `
