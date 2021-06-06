@@ -22,13 +22,7 @@ const ContactUs = () => {
                 <Hide>
                     <Social variants={titleAnim}>
                         <Circle />
-                        <a style={{textDecoration: 'none', color: '#353535'}} href="mailto:marina.kim.mk90@gmail.com"><h2>Send email</h2></a>
-                    </Social>
-                </Hide>
-                <Hide>
-                    <Social variants={titleAnim}>
-                        <Circle />
-                        <a style={{textDecoration: 'none', color: '#353535'}} href="tel:+77778392399"><h2>Call me</h2></a>
+                        <a style={{textDecoration: 'none', color: '#353535'}} href="mailto:marina@marinakim.kz"><h2>Send email</h2></a>
                     </Social>
                 </Hide>
                 <Hide>

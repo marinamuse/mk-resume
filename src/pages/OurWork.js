@@ -29,22 +29,22 @@ const OurWork = () => {
                 <motion.h2 variants={fade}>MuseApp</motion.h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
                     <Hide>
-                        <motion.img variants={photoAnim} src={athlete} alt="athlete"></motion.img>
+                        <a href="https://github.com/marinamuse/museapp" target="_blank"><motion.img variants={photoAnim} src={athlete} alt="athlete"></motion.img></a>
                     </Hide>
             </Movie>
             <Movie ref={element} variants={fade} animate={controls} initial="hidden">
                 <h2>PlacesApp</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
-                
-                    <img src={racer} alt="racer"></img>
-                
+                <Hide>
+                    <a href="https://github.com/marinamuse/places" target="_blank"><img src={racer} alt="racer"></img></a>
+                </Hide>
             </Movie>
             <Movie ref={element2} variants={fade} animate={controls2} initial="hidden">
                 <h2>GearUp Store</h2>
                 <motion.div variants={lineAnim} className="line"></motion.div>
-                
-                    <img src={goodtimes} alt="goodtimes"></img>
-                
+                <Hide>
+                    <a href="https://github.com/marinamuse/gadget-shop" target="_blank"><img src={goodtimes} alt="goodtimes"></img></a>
+                </Hide>
             </Movie>
             <ScrollTop />
         </Work>
@@ -74,6 +74,9 @@ const Movie = styled(motion.div)`
         width: 100%;
         height: 70%;
         object-fit: cover;
+        &:hover {
+           cursor: pointer;
+        }
     }
 `;
 
