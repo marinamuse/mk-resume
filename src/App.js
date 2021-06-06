@@ -5,7 +5,7 @@ import ContactUs from "./pages/ContactUs";
 import OurWork from "./pages/OurWork";
 import { Switch, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import AdSense from "./components/AdSense";
+// import AdSense from "./components/AdSense";
 
 function App() {
   const location = useLocation();
@@ -27,7 +27,6 @@ function App() {
           </Route>
         </Switch>
       </AnimatePresence>
-      <AdSense />
     </div>
   );
 }
